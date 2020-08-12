@@ -17,6 +17,7 @@
     Macaw::get('(:all)', function($fu) {
       echo '未匹配到路由<br>'.$fu;
     });
+    
 
 
   // Macaw::any('/', function() {
