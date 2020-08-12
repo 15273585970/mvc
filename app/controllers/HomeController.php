@@ -13,4 +13,11 @@ class HomeController extends BaseController{
 
        require dirname(__FILE__).'/../views/home.php';
    }
+
+   public function test()
+   {
+       return $this->result('','success',200);
+   }
+
+
 }
