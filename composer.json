@@ -8,7 +8,9 @@
       "classmap": [
         "app/controllers",
         "app/models",
-        "app/common/models"
+        "app/common/models",
+        "app/common/enums",
+        "app/traits"
       ]
     }
   }

@@ -15,5 +15,7 @@ return array(
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'Users' => $baseDir . '/app/models/Users.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+    'app\\common\\enums\\UsersType' => $baseDir . '/app/common/enums/UsersType.php',
     'app\\common\\models\\BaseModel' => $baseDir . '/app/common/models/BaseModel.php',
+    'app\\traits\\ApiRespone' => $baseDir . '/app/traits/ApiRespone.php',
 );
