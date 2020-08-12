@@ -2,7 +2,7 @@
 class HomeController extends BaseController{
    public function home()
    {
-       $Article  = Article::first();
+       $Article  = Users::first();
        require dirname(__FILE__).'/../views/home.php';
    }
 }

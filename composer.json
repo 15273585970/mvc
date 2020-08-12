@@ -1,11 +1,14 @@
 {
     "require": {
-      "codingbean/macaw": "dev-master"
+      "codingbean/macaw": "dev-master",
+        "bensampo/laravel-enum": "^2.1", 
+        "illuminate/database": "*"
     },
     "autoload": {
       "classmap": [
         "app/controllers",
-        "app/models"
+        "app/models",
+        "app/common/models"
       ]
     }
   }
